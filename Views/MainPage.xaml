@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiHeatMap.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+    Title="Heat Map Tracker">
+
+    <Grid>
+        <!-- Base map -->
+        <maps:Map x:Name="Map"
+                  MapType="Street"
+                  IsShowingUser="True"
+                  />
+
+        <!-- Heat map overlay -->
+        <GraphicsView x:Name="HeatOverlay"
+                      InputTransparent="True"
+                      Drawable="{x:Reference HeatDrawable}"/>
+
+        <!-- Drawable declared in Resources so we can reference it -->
+        <ContentPage.Resources>
+            <maui:BindableObject x:Key="HeatDrawable" />
+        </ContentPage.Resources>
+
+        <!-- Controls -->
+        <VerticalStackLayout Spacing="8"
+                             Padding="12"
+                             HorizontalOptions="End"
+                             VerticalOptions="Start">
+            <Button x:Name="StartBtn" Text="Start Tracking" Clicked="OnStartClicked"/>
+            <Button x:Name="StopBtn" Text="Stop Tracking" Clicked="OnStopClicked" IsEnabled="False"/>
+            <Button Text="Clear Data" Clicked="OnClearClicked"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
