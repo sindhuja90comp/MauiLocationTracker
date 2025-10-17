@@ -1,6 +1,6 @@
 # MauiLocationTracker
 
-[![Language: C#](https://img.shields.io/badge/language-C%23-blue.svg)]() [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)]()
+[![Language: C#](https://img.shields.io/badge/language-C%23-blue.svg)]() 
 
 A cross-platform .NET MAUI sample application for reading and tracking device location (foreground, with optional background support). Demonstrates requesting runtime permissions, obtaining current location, continuous tracking, and persisting location updates.
 
