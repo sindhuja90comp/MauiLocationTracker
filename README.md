@@ -5,26 +5,24 @@
 A cross-platform .NET MAUI sample application for reading and tracking device location (foreground, with optional background support). Demonstrates requesting runtime permissions, obtaining current location, continuous tracking, and persisting location updates.
 
 ## Table of contents
-- Features
-- Screenshots
-- Project structure
-- Prerequisites
-- Quick start
-- Platform setup
-  - Android
-  - iOS / MacCatalyst
-  - Windows
-- Configuration
-- Usage examples
-  - Requesting permissions
-  - Get current location
-  - Continuous tracking
-  - Persisting locations (SQLite example)
-- Troubleshooting
-- Contributing
-- License
-- Acknowledgements
-- Contact
+
+- [MauiLocationTracker](#mauilocationtracker)
+- [Overview](#overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Usage](#usage)
+- [Permissions & Privacy](#permissions--privacy)
+- [Background Location Tracking](#background-location-tracking)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [Development & Contributing](#development--contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Features
 - Request and handle runtime location permissions
