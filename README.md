@@ -233,9 +233,6 @@ Contributions are welcome. Recommended workflow:
 
 Include platform-specific testing notes and screenshots for UI changes.
 
-## License
-This project is available under the MIT License. See LICENSE file for details.
-
 ## Acknowledgements
 - .NET MAUI documentation — https://learn.microsoft.com/dotnet/maui
 - CommunityToolkit.Maui and other community libraries commonly used with MAUI apps
