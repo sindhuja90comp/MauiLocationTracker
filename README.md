@@ -7,22 +7,22 @@ A cross-platform .NET MAUI sample application for reading and tracking device lo
 ## Table of contents
 
 - [MauiLocationTracker](#mauilocationtracker)
-- [Overview](#overview)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Running the App](#running-the-app)
-- [Usage](#usage)
-- [Permissions & Privacy](#permissions--privacy)
-- [Background Location Tracking](#background-location-tracking)
+- [Project structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Quick start](#quick-start)
+- [Platform setup](#platform-setup)  
+  - [Android](#android)  
+  - [iOS / MacCatalyst](#ios--maccatalyst)  
+  - [Windows](#windows)
 - [Configuration](#configuration)
+- [Usage examples](#usage-examples)
 - [Troubleshooting](#troubleshooting)
-- [Development & Contributing](#development--contributing)
-- [Tests](#tests)
-- [License](#license)
+- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+
 
 ## Features
 - Request and handle runtime location permissions
